@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>like this way</title>
+    <!--google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--my css link-->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!--font awesome icones link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" </head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>LTW</h1>
+    
+    <div class="navbar-links">
+        <p class="navbar-links"><a href="index.html">Home</a></p>
+        <p class="navbar-links"><a href="collection.html">collection</a></p>
+        <p class="navbar-links"><a href="contact.html">contact</a></p>
+    </div>
+    <div class="navbar-menu-toggle" onclick="showNavbar()">
+        <i class="fa-solid fa-bars"></i>
+
+    </div>
+    </nav>
+    <!--side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick ="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+        <p class="side-navbar-links"><a href="index.html">Home</a></p>
+        <p class="side-navbar-links"><a href="collection.html">collection</a></p>
+        <p class="side-navbar-links"><a href="newarrival.html">New arrival</a></p>
+        <p class="side-navbar-links"><a href="most.html">Most wanted</a></p>
+        <p class="side-navbar-links"><a href="contact.html">contact</a></p>
+        
+        </div>
+    </div>
+    <!--product-->
+ <div class="product-section" >
+    <form class="product-search">
+        <input type="text" id="search" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </form>
+<div class="products" id="products">
+
+    <div class="products-box">
+    <img src="shopping.webp" width="200px" height="200px"alt="">
+    <p>black shirt</p>
+</div>
+<div class="products-box">
+    <img src="shopping.webp" width="200px" height="200px" alt="">
+    <p>black shirt</p>
+</div>
+<div class="products-box">
+    <img src="download.jpg" width="200px" height="200px" alt="">
+    <p>white shirt</p>
+</div>
+<div class="products-box">
+    <img src="download.jpg" width="200px" height="200px" alt="">
+    <p>white shirt</p>
+</div>
+<div class="products-box">
+    <img src="images (1).jpg"  width="200px" height="200px" alt="">
+    <p>red shirt</p>
+</div>
+<div class="products-box">
+    <img src="images (1).jpg"width="200px" height="200px" alt="">
+    <p>red shirt</p>
+</div>
+<div class="products-box">
+    <img src="images (3).jpg"width="200px" height="200px" alt="">
+    <p>gray shirt</p>
+</div>
+<div class="products-box">
+    <img src="images (3).jpg"width="200px" height="200px" alt=""><br>
+    <p>gray shirt</p>
+</div>
+</div>
+
+
+    <!--foooter-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box">
+                <h2 class="headingtext">nostra</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, necessitatibus sapiente ipsa praesentium perferendis perspiciatis</p><br>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color:white;"></i>
+                    <i class="fa-brands fa-twitter" style="color:white;"></i>
+                    <i class="fa-brands fa-facebook" style="color:white;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2024LTW.com</p>
+    </div>
+<script src="collection.js"></script>
+<script src="script.js"></script>
+<script src="fetch.js"></script>
+</body>
+
+</html>
